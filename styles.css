@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Josefin+Sans&family=Koulen&family=VT323&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: "IBM Plex Mono","Josefin Sans","VT323" ,"Koulen", cursive,sans-serif ,monospace;
+  /*border-color: red;*/
+  color: #320a0b;
+} /*
+.color1 {color: #f6aaa9;}
+.color2 {color: #f1d67e;}
+.color3 {color: #320a0b;}
+.color4 {color: #887674;}
+.color5 {color: #f3eae8;}*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f6aaa9;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1d67e;
+  text-align: center;
+}
+body {
+  background-color: #f3eae8;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container_1 {
+  width: fit-content;
+  float: left;
+  width: 50%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.text_input {
+  margin-top: 1rem;
+  width: 100%;
+  height: 18rem;
+}
+#text_input {
+  width: 85%;
+  height: 85%;
+  background-color: transparent;
+  background: inherit;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button{
+  border: none;
+  color:#320a0b;
+  text-align: center;
+  background-color: #f3eae8;
+  border: 2px solid #320a0b;
+  border-radius: 12px;
+  padding: 10px 28px;
+  font-size: 20px;
+}
+.container_2 {
+  width: fit-content;
+  float: right;
+  width: 50%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.text_output {
+  margin-top: 1rem;
+  width: 100%;
+  height: 18rem;
+  text-align: center;
+}

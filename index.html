@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div>
+      <nav class="nav navbar"> 
+          <h1>Encriptador <i class="fa-solid fa-lock"></i></h1>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="container_1">
+        <div class="box">
+          <section class="text_input">
+            <textarea
+              type="text"
+              id="text_input"
+              placeholder="Escribe aquí un texto que quieras encriptar"
+            ></textarea>
+          </section>
+          <div class="buttons">
+            <button
+              class="btn btn-primary"
+              id="encriptar"
+              onclick="encriptar(document.querySelector('textarea').value)"
+            >
+              Encriptar
+            </button>
+            <button
+              class="btn btn-secondary"
+              id="desencriptar"
+              onclick="desencriptar(document.querySelector('textarea').value)"
+            >
+              Desencriptar
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_2">
+        <div class="box">
+          <section class="text_output" id="text_output">
+            Aqui sale tu texto.
+          </section>
+          <div class="buttons">
+            <button id="copiador" onclick="">Copiar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">Pagina creada por Jair Camacho <a href="https://github.com/Ghost3119"><i  class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/jair-camacho-776232214/"><i class="fa-brands fa-linkedin-in"></i></a></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
