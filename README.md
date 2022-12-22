@@ -4,6 +4,7 @@ Este proyecto es un challenge propuesto por Alura en el programa ONE.
 
 Reglas:
 Este encriptador funciona cambiando las vocales por las siguientes frases:
+
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
